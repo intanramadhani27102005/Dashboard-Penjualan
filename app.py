@@ -3,7 +3,7 @@ import csv
 
 st.set_page_config(page_title="Dashboard Penjualan Interaktif", layout="wide")
 
-st.title("📊 Dashboard Penjualan Interaktif (Tanpa Pandas)")
+st.title("📊 Dashboard Penjualan Interaktif")
 
 # ============================
 # Fungsi Membaca CSV Manual
@@ -65,3 +65,4 @@ if file:
 
 else:
     st.info("Silakan upload file CSV terlebih dahulu.")
+
